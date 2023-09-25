@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ODRViolationCheckDemoLibrary", "ODRViolationCheckDemoLibrary\ODRViolationCheckDemoLibrary.vcxproj", "{403BF105-5A58-47D1-BFD9-9F6E0F622D24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ODRViolationCheckDemo", "ODRViolationCheckDemo\ODRViolationCheckDemo.vcxproj", "{8FFB81B9-0325-404E-902B-E3E4A5FD8B42}"
+	ProjectSection(ProjectDependencies) = postProject
+		{403BF105-5A58-47D1-BFD9-9F6E0F622D24} = {403BF105-5A58-47D1-BFD9-9F6E0F622D24}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{403BF105-5A58-47D1-BFD9-9F6E0F622D24}.Debug|x64.ActiveCfg = Debug|x64
+		{403BF105-5A58-47D1-BFD9-9F6E0F622D24}.Debug|x64.Build.0 = Debug|x64
+		{403BF105-5A58-47D1-BFD9-9F6E0F622D24}.Release|x64.ActiveCfg = Release|x64
+		{403BF105-5A58-47D1-BFD9-9F6E0F622D24}.Release|x64.Build.0 = Release|x64
+		{8FFB81B9-0325-404E-902B-E3E4A5FD8B42}.Debug|x64.ActiveCfg = Debug|x64
+		{8FFB81B9-0325-404E-902B-E3E4A5FD8B42}.Debug|x64.Build.0 = Debug|x64
+		{8FFB81B9-0325-404E-902B-E3E4A5FD8B42}.Release|x64.ActiveCfg = Release|x64
+		{8FFB81B9-0325-404E-902B-E3E4A5FD8B42}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B742382A-3621-4096-99CA-3482433BB7F3}
+	EndGlobalSection
+EndGlobal
