@@ -2,19 +2,22 @@
 #define ODRVIOLATIONCHECKDEMOLIBRARY_ODRVIOLATIONCHECKDEMOLIBRARY_H
 #include <cstdio>
 
+#ifdef ODRVIOLATIONCHECKDEMO_FLAG
+#define ODRVIOLATIONCHECKDEMO_MACRO(text) printf("%s\n", text);
+#else
+#define ODRVIOLATIONCHECKDEMO_MACRO(text)
+#endif
+
 namespace ODRViolationCheckDemoLibrary
 {
 
 class ODRViolationCheckDemoLibrary
 {
 public:
-void HelloWorld()
+
+	void HelloWorld()
 	{
-#ifdef ODRVIOLATIONCHECKDEMO_FLAG
-		printf("Hero World!!\n");
-#else
-		printf("Hello world!\n");
-#endif
+		ODRVIOLATIONCHECKDEMO_MACRO("Hello world");
 	}
 
 	void HelloWorld2();

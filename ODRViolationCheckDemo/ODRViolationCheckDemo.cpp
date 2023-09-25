@@ -6,6 +6,6 @@
 int main()
 {
 	ODRViolationCheckDemoLibrary::ODRViolationCheckDemoLibrary lib;
-	// lib.HelloWorld(); // この行をコメントアウトするかどうかによってHero World!!が出力されるかHello world!が出力されるかが変わる…
+	//lib.HelloWorld(); // この行がコメントアウトされているとHello worldが出力される、コメントアウト解除すると何も出力されなくなる
 	lib.HelloWorld2();
 }
